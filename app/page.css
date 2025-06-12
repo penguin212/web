@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-move-left: move-left 50s linear infinite;
+  @keyframes move-left {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(-50000px);
+    }
+  }
+}
